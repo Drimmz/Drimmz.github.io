@@ -1,0 +1,219 @@
+* {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Outfit', sans-serif; /*tipografia*/
+    font-size: 1em; /*tamaño letra*/
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size:20px;
+    margin: 10px 5px 7px 7px;
+}
+
+h5{
+    display: inline-block;
+    font-size: 20px;
+    color:aqua;
+    box-sizing: border-box;
+    padding: 10px 5px 5px 15px;
+}
+
+p{
+    font-size: 18px;
+    padding: 10px 5px 5px 15px;
+    display:inline-block;
+    text-align: justify;
+}
+
+body{
+    background-color: #4c4a4a;
+}
+
+#first_text{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #4c4a4a;
+    margin: 0px 5px 10px 500px;
+    text-align: center;
+}
+
+
+#firstext_inicio{
+    background-color: #13023b; /*fondo color*/
+    display: inline-block; /*Esta funcion altera un bloque*/
+    color:#b1d805; /*color texto*/
+    font-family: 'Outfit', sans-serif;/*tipografia*/
+    box-sizing: content-box;
+    text-align:right;
+    line-height: 30px;
+    padding: 0px 3px 5px 10px; /*tamaño de la caja*/
+    border: 5px inset blue; /*borde*/
+    margin: 5px 5px 5px 240px; /*separacion entre todo*/
+    left: 500px;
+
+}
+#firstext_nav_list {
+    list-style: none;
+  }
+  
+#firstext_nav_list li {
+   
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 10px;
+    background: #979696;
+    border-radius: 10px;
+    border: 10px dashed rgb(106, 73, 73);
+  }
+  
+#firstext_article{
+    display:inline-block;
+    font-size: 1.7em;
+    background-color: #ffe2ba;
+    padding: 10px 10px 25px 25px;
+    margin: 20px 500px 10px 10px;
+    border: 10px inset #343635;
+    position:relative;
+    left: 340px;
+    }
+/* DISEÑO PESTAÑA PERSONAJES ULTRA*/
+#ultracharacters{
+    list-style: none;
+}
+#ultracharacters_list li {
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 10px;
+    background: #ffffff;
+}
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: -200px; /* Oculta inicialmente la mayor parte de la barra de navegación */
+    background-color: #2e2e2e;
+    margin:0px 20px 0px 0px;
+    transition: all 0.9s ease; /* Añade una transición suave */
+}
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0; /* Muestra completamente la barra de navegación */
+    background-color: #1e1f20;
+    margin:0px 20px 0px 0px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+.sidebar-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.sidebar-item p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-item:hover {
+    background-color: #6743a5;
+    color: white;
+    transform: scale(1.1);
+}
+
+.sidebar-item button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu-icon {
+    position: absolute;
+    top: 20px; /* Ajusta la posición desde la parte superior */
+    left: 20px; /* Ajusta la posición desde la izquierda */
+    font-size: 30px; /* Ajusta el tamaño del ícono */
+    color: white; /* Ajusta el color del ícono */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa el mouse sobre el ícono */
+}
+#LL_Lista{
+    display:inline-block;
+    font-size: 1.7em;
+    background-color: #4c4a4a;
+    padding: 10px 10px 25px 25px;
+    margin: 20px 500px 10px 10px;
+    position:relative;
+    left: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para pantallas más pequeñas que 600px */
+@media (max-width: 600px) {
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    h4{
+        font-size:16px;
+        margin: 5px 3px 5px 5px;
+    }
+
+    h5{
+        font-size: 16px;
+        padding: 5px 3px 3px 10px;
+    }
+
+    p{
+        font-size: 16px;
+        padding: 5px 3px 3px 10px;
+    }
+
+    #first_text{
+        margin: 0px 3px 5px 250px;
+    }
+}
